@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          #basedir:
+          uri: https://github.com/xiongyongjie/springcloudproject.git
+          search-paths: config/${spring.cloud.config.profile}
+          default-label: master
+          username: xiongyongjie
+          password: xyj126com
+      #设置分支
+      label: master
+      #当前激活的文件
+      profile: test
+server:
+  port: 7777
