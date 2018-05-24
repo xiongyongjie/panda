@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eurakeserver
+server:
+  #注册服务端口
+  port: 9999
+eureka:
+  client:
+    #register-with-eureka: false
+    #registry-fetch-interval-seconds: 10
+    #服务地址
+    service-url:
+      - http://127.0.0.1:7777/
+    #注册服务禁用注册
+    #fetch-registry: false
+
+
+

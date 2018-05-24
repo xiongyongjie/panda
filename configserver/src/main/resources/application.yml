@@ -16,4 +16,4 @@ spring:
       #当前激活的文件
       profile: test
 server:
-  port: 7777
+  port: 9988
