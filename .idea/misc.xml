@@ -6,6 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurakeserver/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/model/product/pom.xml" />
+        <option value="$PROJECT_DIR$/model/pom.xml" />
       </list>
     </option>
   </component>

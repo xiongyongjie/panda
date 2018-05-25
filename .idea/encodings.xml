@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurakeserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model/price" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model/product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/price" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/product" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

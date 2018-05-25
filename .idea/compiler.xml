@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
-        <module name="panda" />
+        <module name="eurakeserver" />
+        <module name="model-price" />
+        <module name="model-product" />
+        <module name="product-model" />
+        <module name="service-price" />
+        <module name="service-product" />
       </profile>
     </annotationProcessing>
   </component>
