@@ -7,13 +7,13 @@ spring:
         git:
           #basedir:
           uri: https://github.com/xiongyongjie/springcloudproject.git
-          search-paths: config/${spring.cloud.config.profile}
+          search-paths: config/dev
           default-label: master
           username: xiongyongjie
           password: xyj126com
       #设置分支
       label: master
       #当前激活的文件
-      profile: test
+      profile: dev
 server:
-  port: 9988
+  port: 8888

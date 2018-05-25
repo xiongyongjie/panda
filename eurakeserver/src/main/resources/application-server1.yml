@@ -9,8 +9,8 @@ eureka:
      register-with-eureka: false
      #registry-fetch-interval-seconds: 10
     #服务地址
-    service-url:
-      - http://127.0.0.1:9999/
+    #service-url:
+    #  - http://127.0.0.1:9999/
     #注册服务禁用注册
      fetch-registry: false
 

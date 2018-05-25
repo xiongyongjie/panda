@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: configserver-test
+  cloud:
+    config:
+      server:
+        git:
+          #basedir:
+          uri: https://github.com/xiongyongjie/springcloudproject.git
+server:
+  port: 9001
