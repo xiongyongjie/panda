@@ -6,7 +6,7 @@ spring:
       server:
         git:
           #basedir:
-          uri: https://github.com/xiongyongjie/springcloudproject.git
+          uri: https://github.com/xiongyongjie/panda.git
           search-paths: config/dev
           default-label: master
           username: xiongyongjie
