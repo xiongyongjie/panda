@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
-@ApiModel("商品西信息")
+@ApiModel("商品信息Vo")
 public class ProductVo {
 
     /**

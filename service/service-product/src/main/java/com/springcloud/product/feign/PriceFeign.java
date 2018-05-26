@@ -4,6 +4,7 @@ import com.springcloud.product.feign.fallback.PriceFeignFallback;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 /**
@@ -18,6 +19,6 @@ public interface PriceFeign {
      * @param productCode 商品编码
      * @return 商品价格
      */
-    @PostMapping("/api/price/getPriceByProductCode")
-    int getPriceByProductCode(String productCode);
+    @PostMapping("/api/price/getPriceByProductCode/{productCode}")
+    int getPriceByProductCode(@PathVariable("productCode")  String productCode);
 }

@@ -21,7 +21,7 @@ public class SwaggerConfiguration {
     @Bean
     public Docket newsApi() {
         //return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select().paths(PathSelectors.any()).build();
-        Docket docket = new Docket(DocumentationType.SPRING_WEB);
+        Docket docket = new Docket(DocumentationType.SWAGGER_2);
         docket.enable(true);
         docket.apiInfo(apiInfo())
                 .select()

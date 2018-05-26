@@ -5,9 +5,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import vo.ProductVo;
 
 import java.util.List;
@@ -24,9 +22,10 @@ public class ProductApiController {
      * 获取商品列表
      * @return
      */
-    @GetMapping("list")
+    @GetMapping("list/{productId}")
     @ApiOperation(value = "获取商品列表信息")
-    public List<ProductVo> getProductList(@ApiParam(value = "商品ID",required = true) String productId) {
+    @ResponseBody
+    public List<ProductVo> getProductList( @PathVariable("productId") String productId) {
 
         return  productService.queryProductList();
 
