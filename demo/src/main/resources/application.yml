@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      #profile: dev
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/xiongyongjie/panda
+          username: xiongyongjie
+          password: xyj126com
+          search-paths: config/dev
+          basedir: D:\\config\
+server:
+  port: 8888

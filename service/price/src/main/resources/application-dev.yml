@@ -2,8 +2,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7777/eurake/
-server:
-  port: 17002
-spring:
-  application:
-    name: price
