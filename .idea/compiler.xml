@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="base-service" />
         <module name="configserver" />
         <module name="demo" />
         <module name="eurakeserver" />
@@ -13,31 +14,20 @@
         <module name="model-product" />
         <module name="price" />
         <module name="price (1) (com.model)" />
-        <module name="product" />
         <module name="product (1) (com.model)" />
-        <module name="product-model" />
         <module name="service-price" />
         <module name="service-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="baseservice" target="1.5" />
-      <module name="configserver" target="1.8" />
-      <module name="demo" target="1.8" />
-      <module name="eurakeserver" target="1.8" />
       <module name="model" target="1.5" />
-      <module name="model-price" target="1.5" />
-      <module name="model-product" target="1.5" />
-      <module name="panda" target="1.8" />
       <module name="price" target="1.8" />
       <module name="price (1) (com.model)" target="1.8" />
       <module name="price (2) (com.springcloud)" target="1.8" />
-      <module name="product" target="1.8" />
       <module name="product (1) (com.model)" target="1.8" />
       <module name="product (2) (com.springcloud)" target="1.8" />
       <module name="service" target="1.8" />
-      <module name="service-price" target="1.8" />
-      <module name="service-product" target="1.8" />
       <module name="servicebase" target="1.8" />
     </bytecodeTargetLevel>
   </component>

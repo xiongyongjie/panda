@@ -8,8 +8,11 @@
     <artifactId>panda</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>service</module>
+        <module>model</module>
+        <module>base-service</module>
     </modules>
 
     <parent>

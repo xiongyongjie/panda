@@ -1,8 +1,6 @@
-server:
-  port: 17002
 spring:
   application:
-    name: service-price
+    name: service-product
   profiles:
     active: dev
   cloud:

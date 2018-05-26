@@ -3,20 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.model</groupId>
-    <artifactId>model</artifactId>
+    <groupId>com.base</groupId>
+    <artifactId>base-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    <!-- 子模块 -->
-    <modules>
-        <module>model-price</module>
-        <module>model-product</module>
-    </modules>
-
-    <packaging>pom</packaging>
-
-    <name>model</name>
-    <description>model模块父工程</description>
+    <name>base-service</name>
+    <description>servcie基础服务</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,12 +17,16 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <!-- 基础依赖 -->
     <dependencies>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
         </dependency>
+
+        <!-- swagger2.0集成 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -46,29 +43,17 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.3.0</version>
         </dependency>
+
     </dependencies>
 
-  <!--  <distributionManagement>
-        <repository>
-            <id>springcloud-snapshot</id>
-            <name>springcloud-snapshot</name>
-            <url>http://127.0.0.1:8081/repository/springcloud-snapshot/</url>
-        </repository>
-    </distributionManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>springcloud-releases</id>
-            <name>springcloud-releases</name>
-            <url>http://127.0.0.1:8081/repository/springcloud-releases/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-      </pluginRepositories>
-      -->
 
 </project>

@@ -19,6 +19,7 @@ public class ProductDao {
             Product product = new Product();
             product.setProductCode("code-" + i);
             product.setProductName("pname-" + i);
+            list.add(product);
         }
         return  list;
     }

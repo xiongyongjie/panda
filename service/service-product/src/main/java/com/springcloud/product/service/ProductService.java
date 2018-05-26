@@ -10,14 +10,18 @@ import vo.ProductVo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 @Service
 public class ProductService {
 
     @Autowired
     private ProductDao productDao;
+
     @Autowired
-    private PriceFeign priceFeign;
+    private   PriceFeign priceFeign;
+
+
 
     /**
      * 获取商品列表
