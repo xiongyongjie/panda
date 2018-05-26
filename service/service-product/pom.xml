@@ -23,7 +23,7 @@
         <!-- 商品product依赖 -->
         <dependency>
             <groupId>com.model</groupId>
-            <artifactId>product</artifactId>
+            <artifactId>model-product</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

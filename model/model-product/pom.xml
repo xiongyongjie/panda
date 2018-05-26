@@ -7,9 +7,10 @@
         <groupId>com.model</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
-    <artifactId>price</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>model-product</artifactId>
 
 
 </project>

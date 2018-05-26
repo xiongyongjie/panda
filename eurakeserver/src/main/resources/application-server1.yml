@@ -10,7 +10,7 @@ eureka:
      #registry-fetch-interval-seconds: 10
     #服务地址
      service-url:
-        defaultZone: http://127.0.0.1:7777/eurake/
+        defaultZone: http://127.0.0.1:7777/eureka/
     #注册服务禁用注册
      fetch-registry: false
 

@@ -9,21 +9,14 @@
 
     <!-- 子模块 -->
     <modules>
-        <module>product</module>
-        <module>price</module>
+        <module>model-price</module>
+        <module>model-product</module>
     </modules>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>model</name>
     <description>model模块父工程</description>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,18 +28,30 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.16.20</version>
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <distributionManagement>
+        <repository>
+            <id>springcloud-snapshot</id>
+            <name>springcloud-snapshot</name>
+            <url>http://127.0.0.1:8081/repository/springcloud-snapshot/</url>
+        </repository>
+    </distributionManagement>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>springcloud-releases</id>
+            <name>springcloud-releases</name>
+            <url>http://127.0.0.1:8081/repository/springcloud-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
 
 </project>

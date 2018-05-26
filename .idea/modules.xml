@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurakeserver/eurakeserver.iml" filepath="$PROJECT_DIR$/eurakeserver/eurakeserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model-price/model-price.iml" filepath="$PROJECT_DIR$/model/model-price/model-price.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model-product/model-product.iml" filepath="$PROJECT_DIR$/model/model-product/model-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panda.iml" filepath="$PROJECT_DIR$/panda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-price/service-price.iml" filepath="$PROJECT_DIR$/service/service-price/service-price.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-product/product.iml" filepath="$PROJECT_DIR$/service/service-product/product.iml" />
     </modules>
   </component>
 </project>

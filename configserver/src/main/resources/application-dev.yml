@@ -1,35 +1,21 @@
 spring:
+  application:
+    name: configserver
   cloud:
-     config:
-        server:
-           git:
-              #basedir:
-              uri: https://github.com/xiongyongjie/panda
-              search-paths: config/${spring.cloud.config.profile}
-              default-label: master
-              username: xiongyongjie
-              password: xyj126com
-        #设置分支
-        label: master
+    config:
+      #profile: dev
+      server:
+        git:
+          #default-label: master
+          uri: https://github.com/xiongyongjie/panda
+          username: xiongyongjie
+          password: xyj126com
+          search-paths: config-repo/dev
+          basedir: D:\\config\
+server:
+  port: 8888
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7777/eureka/

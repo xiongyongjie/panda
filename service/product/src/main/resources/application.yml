@@ -1,9 +1,0 @@
-server:
-  port: 17001
-spring:
-  application:
-    name: product
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:7777/eurake/
