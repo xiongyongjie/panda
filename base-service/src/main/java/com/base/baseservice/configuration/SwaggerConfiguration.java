@@ -25,6 +25,7 @@ public class SwaggerConfiguration {
         docket.enable(true);
         docket.apiInfo(apiInfo())
                 .select()
+                //扫描api的包名配置
                 .apis(RequestHandlerSelectors.basePackage("com.springcloud"))
                 .paths(PathSelectors.any()).build();
         return docket;

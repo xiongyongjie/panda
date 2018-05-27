@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base-service" />
         <module name="configserver" />
-        <module name="demo" />
         <module name="eurakeserver" />
         <module name="model-price" />
         <module name="model-product" />
@@ -21,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="baseservice" target="1.5" />
+      <module name="demo" target="1.8" />
       <module name="model" target="1.5" />
       <module name="price" target="1.8" />
       <module name="price (1) (com.model)" target="1.8" />

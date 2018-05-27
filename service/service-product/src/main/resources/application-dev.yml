@@ -1,8 +1,10 @@
 server:
+  #项目的端口地址
   port: 17001
 eureka:
   client:
     service-url:
+      #eureka注册地址
       defaultZone: http://127.0.0.1:7777/eureka/
   instance:
     #eureka显示为IP:PORT 格式配置

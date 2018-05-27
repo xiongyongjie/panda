@@ -11,10 +11,9 @@ import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableEurekaClient
+//@EnableEurekaClient
 @EnableFeignClients
 //引入swagger初始化配置
-@ComponentScan(basePackages = {"com.base.*","com.springcloud.*"})
 @Import({SwaggerConfiguration.class})
 public class ProductApplication {
 
