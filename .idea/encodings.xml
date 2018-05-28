@@ -2,9 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigatway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurakeserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/model/model-price" charset="UTF-8" />

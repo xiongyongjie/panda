@@ -31,4 +31,12 @@ public class ProductApiController {
 
     }
 
+    @GetMapping("getInfo")
+    @ApiOperation(value = "获取商品列表信息")
+    @ResponseBody
+    public String getProductInfo() {
+
+        return   "测试信息";
+
+    }
 }

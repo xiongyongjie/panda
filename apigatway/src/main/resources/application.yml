@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: api-gatway
+server:
+  port: 17900
+#配置eureka服务地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7777/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  host:
+     #zuul配置
+    max-per-route-connections: 50
+    max-total-connections: 200
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  #关闭重试机制
+  retryable: true
+  routes:
+    product:
+      #说明: path不是微服务的地址而是自己定义的地址如果微服务地址为 /api/product 则此处访问地址为: /product/api/product
+      path: /product/**
+      serviceId: service-product
+    price:
+      path: /price/**
+      serviceId: servcie-price
+  include-debug-header: true
+#开启debug模式
+debug: true

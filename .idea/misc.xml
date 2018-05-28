@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/model/price/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/base-service/pom.xml" />
+        <option value="$PROJECT_DIR$/apigatway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
