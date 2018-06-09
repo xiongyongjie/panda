@@ -25,4 +25,4 @@ management:
     bus-refresh:
       enabled: true
 app:
-  ver: 3000
+  ver: 3000.001
