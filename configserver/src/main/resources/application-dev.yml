@@ -8,8 +8,8 @@ spring:
         git:
           #default-label: master
           uri: https://github.com/xiongyongjie/panda
-          username: xiongyongjie
-          password: xyj126com
+          username: ###
+          password: ###
           search-paths: config-repo/dev
           basedir: D:\\config\
 server:
