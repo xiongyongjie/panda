@@ -14,4 +14,4 @@ spring:
     username: guest
     password: guest
 app:
-  ver: 1.2.300
+  ver: 6.2.300
