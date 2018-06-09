@@ -13,5 +13,16 @@ spring:
     port: 5672
     username: guest
     password: guest
+  #消息总线配置
+  cloud:
+     bus:
+       enabled: true
+       trace:
+         enabled: true
+
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
 app:
-  ver: 6.2.300
+  ver: 20.5555
