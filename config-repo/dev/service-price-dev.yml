@@ -25,4 +25,4 @@ management:
     bus-refresh:
       enabled: true
 app:
-  ver: 20.5555
+  ver: 20.666
