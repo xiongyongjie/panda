@@ -1,3 +1,5 @@
+server:
+  port: 17002
 eureka:
   client:
     service-url:
@@ -20,9 +22,14 @@ spring:
          enabled: true
        enabled: true
 
+  application:
+    name: service-price
+
 management:
   endpoint:
     bus-refresh:
       enabled: true
+
+
 app:
-  ver: 9000
+  ver: 3000

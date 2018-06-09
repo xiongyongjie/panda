@@ -10,6 +10,7 @@ eureka:
     #eureka显示为IP:PORT 格式配置
     #instance-id: ${spring.cloud.client.ipAddress}:${server.port}
     prefer-ip-address: true
+
 #rabbitmq 配置
 spring:
   rabbitmq:
@@ -17,3 +18,19 @@ spring:
     port: 5672
     username: guest
     password: guest
+  #消息总线配置
+  cloud:
+     config:
+       profile: dev
+       uri: http://127.0.0.1:8888/
+     bus:
+       trace:
+         enabled: true
+       enabled: true
+  application:
+    name: service-product
+
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
