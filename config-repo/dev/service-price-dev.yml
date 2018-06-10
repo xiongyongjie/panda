@@ -21,7 +21,7 @@ spring:
        trace:
          enabled: true
        enabled: true
-
+       id: service-price-bus
   application:
     name: service-price
 
@@ -29,7 +29,6 @@ management:
   endpoint:
     bus-refresh:
       enabled: true
-
 
 app:
   ver: 3000
