@@ -31,4 +31,4 @@ management:
       enabled: true
 
 app:
-  ver: 3000
+  ver: 9000
