@@ -31,4 +31,4 @@ management:
       enabled: true
 
 app:
-  ver: 9000
+  ver: 9000.222
