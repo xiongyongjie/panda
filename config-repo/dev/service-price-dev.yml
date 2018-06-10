@@ -31,4 +31,4 @@ management:
       enabled: true
 
 app:
-  ver: 89411
+  ver: 3.0.11
