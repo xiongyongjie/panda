@@ -31,4 +31,4 @@ management:
       enabled: true
 
 app:
-  ver: 9000.222
+  ver: 89411
